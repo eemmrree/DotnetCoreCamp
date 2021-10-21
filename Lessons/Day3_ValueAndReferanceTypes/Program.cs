@@ -14,15 +14,29 @@ namespace Day3_ValueAndReferanceTypes
             y = 15;
 
 
-            int[] values = new[] {10, 20, 30};
-            int[] values2 = new[] {100, 200, 300};
+            int[] values = new[] { 10, 20, 30 };
+            int[] values2 = new[] { 100, 200, 300 };
 
             values = values2;
             values2[0] = 999;
-            
-            
+
+
             Console.WriteLine(x);
+            //10
             Console.WriteLine(values[0]);
+            //999
+
+            
+            
+            /*
+            DEĞER VE REFERANS TİPLER
+
+            int, decimal, float, double, bool = değer tip
+            array, class, intarface = referans tip
+        
+            */
+
+
 
         }
     }
